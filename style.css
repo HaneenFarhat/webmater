@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+
+}
+
+#mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(140, 187, 31);
+
+}
+
+
+#headerContainer {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(12, 226, 48);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.headerItem {
+    width: 90%;
+    height: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(97, 216, 210);
+    border-radius: 50px;
+
+}
+
+.subContainer {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#sideNavContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(88, 148, 101);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.menuItem {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 200%;
+    cursor: pointer;
+
+}
+
+#contentContainer {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 178, 187);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width:992px){
+    
+    
+}
